@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Book a Table - Great Lounge</title>
+  <link rel="stylesheet" href="styleeeee.css">
+   <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url("back.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+	  }
+	  </style>
+</head>
+<body>
+
+  <header>
+      <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="restaurant.html">Restaurant</a></li>
+    <li><a href="bar.html">Bar</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="booking.html">Book Table</a></li>
+    <li><a href="market.html">Online Market</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav>
+  </header>
+
+   <main class="book-page">
+    <h1>Book a Table</h1>
+    <p>Reserve before 24 hours</p>
+
+    <table border="2" class="menu-table">
+      <tr>
+        <th>Table Type</th>
+        <th>Features</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>VVIP</td>
+        <td>Private room, premium service</td>
+        <td>500,000 FRW</td>
+      </tr>
+      <tr>
+        <td>VIP</td>
+        <td>Window seats, special menu</td>
+        <td>250,000 FRW</td>
+      </tr>
+      <tr>
+        <td>Regular</td>
+        <td>Standard table & service</td>
+        <td>100,000 FRW</td>
+      </tr>
+    </table>
+    <form class="booking-form">
+	<h2>Reserve Now</h2>
+      <label>Full Name:</label>
+      <input type="text" required>
+
+      <label>Email:</label>
+      <input type="email" required>
+
+      <label>Table Type:</label>
+      <select required>
+        <option value="VVIP">VVIP</option>
+        <option value="VIP">VIP</option>
+        <option value="Regular">Regular</option>
+      </select>
+
+      <label>Booking Date:</label>
+      <input type="date" required>
+
+      <label>Time:</label>
+      <input type="time" required>
+
+      <button type="submit">Submit Booking</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>© 2025 Quick Market. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>

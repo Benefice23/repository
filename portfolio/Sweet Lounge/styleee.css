@@ -1,0 +1,70 @@
+ body{
+ margin: 0;
+      height: 100vh;
+      background-image: url("menu.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+	  }
+	  nav ul {
+  background: #004d40;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #00332c;
+}
+.menu-page {
+  padding: 40px 20px;
+  text-align: center;
+  color: lightgray;
+}
+
+.menu-table {
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  color: #000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.menu-table th, .menu-table td {
+  padding: 15px;
+  border: 1px solid #ddd;
+}
+
+.menu-table th {
+  background-color: #044d2b;
+  color: white;
+  .navbar {
+  background-color: #0b2c18;
+  padding: 15px 0;
+  text-align: center;
+}
+footer {
+  background-color: #0b2c18;
+  color: white;
+  text-align: center;
+ padding: 15px 0;
+}
+
+
+
+

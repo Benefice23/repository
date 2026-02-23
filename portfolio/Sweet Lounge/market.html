@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Online Market - Great Lounget</title>
+  <link rel="stylesheet" href="styleeeeee.css">
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url("online.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: fixed;
+	  }
+	  </style>
+</head>
+<body>
+
+  <header>
+      <nav>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="restaurant.html">Restaurant</a></li>
+    <li><a href="bar.html">Bar</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="booking.html">Book Table</a></li>
+    <li><a href="market.html">Online Market</a></li>
+    <li><a href="login.html">Login</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <main class="market-page">
+    <h1>Online Market</h1>
+    <p>Order products directly to your door</p>
+
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="rice.png" alt="Rice">
+        <h3>Chiken Rice</h3>
+        <p>25 K</p>
+        <button onclick="addToCart('Chicken Rice')">Add to Cart</button>
+      </div>
+<div class="product-card">
+        <img src="pizza.png" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>600 frw</p>
+        <button onclick="addToCart('Pizza')">Add to Cart</button>
+      </div>
+
+      <div class="product-card">
+        <img src="hot.png" alt="Hot dog">
+		<h3>2 Hot dogs</h3>
+        <p>3 K</p>
+        <button onclick="addToCart('Hot dogs')">Add to Cart</button>
+      </div>
+    </div>
+  </main>
+    
+ <footer>
+    <p>© 2025 Great Lounge. All rights reserved.</p>
+  </footer>
+   <!-- JavaScript -->
+  <script>
+    function addToCart(item) {
+      alert("You have bought :" +  item);
+    }
+  </script>
+
+
+</body>
+</html>
+
